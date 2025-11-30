@@ -1,12 +1,16 @@
-package com.autobots.automanager.entitades;
+package com.autobots.automanager.entidades;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 
-import lombok.Data;
+import org.springframework.hateoas.RepresentationModel;
+
+import lombok.Getter;
+import lombok.Setter;
 import lombok.EqualsAndHashCode;
 
-@Data
+@Getter
+@Setter
 @EqualsAndHashCode(callSuper = true)
 @Entity
 public class CredencialUsuarioSenha extends Credencial {
