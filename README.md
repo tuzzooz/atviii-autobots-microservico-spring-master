@@ -10,7 +10,7 @@
 - Abra o PowerShell e navegue até a pasta do projeto:
 
 ```
-cd "c:\Users\peter\Downloads\atviii-autobots-microservico-spring\atviii-autobots-microservico-spring\automanager"
+cd "automanager"
 ```
 
 - Executar testes:
